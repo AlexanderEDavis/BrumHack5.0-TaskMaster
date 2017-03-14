@@ -1,0 +1,124 @@
+h1, h2, h3, h4, h5, h6, li{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+html, body, section{
+  display: block;
+  margin: 0px;
+  width: 100%;
+  padding: 0px;
+}
+
+ul{
+  margin: 0px;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+section{
+  padding: 30px 0px;
+}
+
+#Login{
+  margin-bottom: 20px;
+}
+
+/* NAVIGATION */
+nav{
+  width: 100%;
+  height: 10%;
+  background-color: black;
+}
+nav h1{
+  color: white;
+  float: left;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 1em;
+}
+nav ul{
+  color: white;
+  float: right;
+  list-style-type: none;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+nav ul li{
+  display: inline-block;
+  margin: 0px 20px 0px 0px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+nav ul a{
+  color: white;
+  text-decoration: none;
+}
+
+/* Header section */
+#header{
+  height: 82%;
+  text-align: center;
+  background-image:url('../images/header.jpg');
+  background-size:cover;;
+  background-position: center;
+  background-repeat:no-repeat;
+  margin-bottom: 20px;
+
+}
+
+#header-content{
+  width: 80%;
+  margin:auto;
+  position: relative;
+  top: 50%;
+  transform:translateY(-50%);
+  color: white;
+}
+#header-content h1{
+  font-size: 60px;
+}
+
+#header-content{
+  font-size: 40px;
+  font-weight: 300;
+}
+
+/* Icons */
+.icons-content{
+  display: flex;
+  justify-content: center
+}
+.icons-item{
+  width: 30%;
+  text-align: center;
+  padding: 20px 0px;
+}
+.icons-item img{
+  width: 100px;
+  height: 100px;
+}
+.icons-item h3{
+  padding: 30px 0px;
+  font-weight: 300;
+}
+
+#content{
+  width = 80%;
+}
+
+#loginbox{
+  float: left;
+  margin-left: 20%;
+}
+
+#sign{
+  float: right;
+  margin-right: 20%;
+}
